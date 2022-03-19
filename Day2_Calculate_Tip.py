@@ -1,3 +1,5 @@
+# This takes a bill, calculate tips on the bill if any and split the final bill.
+
 print('welcome to the tip calculator.')
 bill = float(input('what was the total bill? $'))
 people = int(input('How many people to split the bill? '))
