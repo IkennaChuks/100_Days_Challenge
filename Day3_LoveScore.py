@@ -20,7 +20,7 @@ Love_score = int(Full_name_true + Full_name_love)
 
 if Love_score < 10 or Love_score > 90:
   print(f'Your score is {Love_score}, you go together like coke and menthos.')
-elif Love_score > 40 or Love_score < 50:
+elif Love_score >= 40 or Love_score <= 50:
   print(f'Your score is {Love_score}, you are alright together.')
 else:
   print(f'Your score is {Love_score}.')
