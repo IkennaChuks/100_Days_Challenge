@@ -22,7 +22,7 @@ def Guess():
     attempts = attempts - 1
     return False
   else:   
-    print('You guessed correctly')
+    print(f'You got it, the answer was {Number}')
     return True
 
 start_guess = True
